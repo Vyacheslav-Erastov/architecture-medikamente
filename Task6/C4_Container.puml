@@ -1,0 +1,26 @@
+@startuml
+
+!include <C4/C4_Container>
+
+Person(user, "Data Analyst", "Работает с аналитическими данными")
+
+System_Boundary(system, "Data Analytics Platform") {
+Container(data_sources, "Data Sources", "Databases / APIs / Logs", "Источники данных (операционные системы, API, лог-файлы)")
+Container(ingestion, "Data Ingestion Service", "Kafka / ETL", "Получает данные из источников и передает в pipeline обработки")
+Container(classification_engine, "Data Classification Engine", "Python / ML / Rules Engine", "Определяет уровень конфиденциальности данных")
+Container(privacy_processing, "Privacy Processing Service", "Masking / Tokenization / Encryption", "Применяет политики защиты данных")
+Container(metadata_catalog, "Metadata Catalog", "Data Catalog", "Хранит метаданные, классы конфиденциальности и lineage данных")
+Container(data_warehouse, "Data Warehouse", "Snowflake / BigQuery / PostgreSQL", "Хранилище аналитических данных")
+Container(monitoring, "Monitoring & Logging", "Prometheus / ELK", "Мониторинг работы системы и аудит операций")
+}
+
+Rel(data_sources, ingestion, "Отправка данных")
+Rel(ingestion, classification_engine, "Передача данных для классификации")
+Rel(classification_engine, privacy_processing, "Передача классифицированных данных")
+Rel(classification_engine, metadata_catalog, "Сохраняет метаданные")
+Rel(privacy_processing, data_warehouse, "Загрузка защищенных данных")
+Rel(user, data_warehouse, "Выполняет аналитические запросы")
+Rel(classification_engine, monitoring, "Метрики и логи")
+Rel(privacy_processing, monitoring, "Аудит операций")
+
+@enduml
