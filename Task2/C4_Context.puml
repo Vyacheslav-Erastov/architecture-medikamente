@@ -1,0 +1,29 @@
+@startuml
+!include <C4/C4_Context>
+
+Person(patient, "Patient", "Пациент клиники")
+Person(admin, "Reception", "Сотрудник ресепшена")
+Person(doctor, "Doctor", "Медицинский специалист")
+Person(bookkeeper, "Bookkeeper", "Бухгалтер")
+
+System(med_system, "Medikamente Platform", "Единая платформа управления пациентами")
+
+System_Ext(lab, "Laboratory System", "Система лаборатории анализов")
+System_Ext(payment, "Payment Provider", "Платёжная система")
+System(mobile, "Mobile App", "Мобильное приложение пациента")
+
+System(data_analytics, "Analytics Platform", "BI / ML / AI аналитика")
+
+Rel(patient, mobile, "Использует")
+Rel(mobile, med_system, "API")
+
+Rel(admin, med_system, "Управление записями")
+Rel(doctor, med_system, "Просмотр медицинских данных")
+Rel(bookkeeper, med_system, "Работа с платежами")
+
+Rel(med_system, lab, "Получение результатов анализов API")
+Rel(med_system, payment, "Обработка платежей")
+
+Rel(med_system, data_analytics, "Передача обезличенных данных")
+
+@enduml

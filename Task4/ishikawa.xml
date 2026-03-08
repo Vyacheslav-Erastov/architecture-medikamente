@@ -1,0 +1,199 @@
+<mxfile host="Electron" modified="2026-03-08T21:55:13.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="T8un2ZJv7y_SukhP886C" version="23.0.2" type="device">
+  <diagram name="Page-1" id="e4aeecc7-1e37-309c-8328-0dd5dd27839b">
+    <mxGraphModel dx="763" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Инфраструктура" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="36.458333333333236" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Снижение производительности и нестабильность системы после миграции" style="whiteSpace=wrap;strokeWidth=3;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=none;strokeWidth=4" parent="1" target="8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="sourcePoint" />
+            <mxPoint x="240" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" parent="1" source="2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="96.45833333333323" y="190" as="sourcePoint" />
+            <mxPoint x="156.45833333333323" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="46.458333333333236" y="190" as="sourcePoint" />
+            <mxPoint x="106.45833333333323" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="66.45833333333323" y="226" as="sourcePoint" />
+            <mxPoint x="126.45833333333323" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="86.45833333333323" y="260" as="sourcePoint" />
+            <mxPoint x="146.45833333333323" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="114" value="Один физический сервер" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="39.51833333333323" y="175.42000000000004" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="Отсутствие масштабирования" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="46.45833333333321" y="208.88999999999993" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="117" value="Сетевые задержки" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="86.4583333333332" y="246.53000000000011" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="143" value="Программное обеспечение" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="260" y="109.99999999999994" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="144" value="Персонал" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="260" y="399.99999999999994" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="145" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" parent="1" source="143" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="189.99999999999991" as="sourcePoint" />
+            <mxPoint x="380" y="279.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="146" value="" style="edgeStyle=none;exitX=0.5;exitY=0;strokeWidth=3" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320.0000000000001" y="399.99999999999994" as="sourcePoint" />
+            <mxPoint x="380" y="279.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="147" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270.0000000000001" y="189.99999999999991" as="sourcePoint" />
+            <mxPoint x="330" y="189.99999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="148" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="290" y="225.99999999999991" as="sourcePoint" />
+            <mxPoint x="349.9999999999999" y="225.99999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="149" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="259.99999999999994" as="sourcePoint" />
+            <mxPoint x="370.0000000000001" y="259.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="153" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="299.99999999999994" as="sourcePoint" />
+            <mxPoint x="370.0000000000001" y="299.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="154" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="290" y="339.99999999999994" as="sourcePoint" />
+            <mxPoint x="349.9999999999999" y="339.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="155" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270.0000000000001" y="379.99999999999994" as="sourcePoint" />
+            <mxPoint x="330" y="379.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="176" value="Неоптимальные SQL запросы" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="250.00000000000006" y="173.88999999999996" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="177" value="Ошибки микросервисной логики" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="263.06" y="211.52999999999986" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="178" value="Высокая нагрузка на API" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="293.06" y="246.53000000000006" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="179" value="Недостаток архитектурной экспертизы" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="270" y="301.94000000000017" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="180" value="Ошибки конфигурации" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="279.99999999999994" y="341.52999999999975" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="181" value="Недостаток DevOps опыта" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="250.0000000000001" y="380.00000000000017" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="204" value="Интеграция" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="475.8333333333331" y="111.52777777777752" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="205" value="Процессы" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="475.8333333333331" y="401.52777777777754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="206" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" parent="1" source="204" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="535.8333333333331" y="191.52777777777752" as="sourcePoint" />
+            <mxPoint x="595.8333333333331" y="281.52777777777754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="207" value="" style="edgeStyle=none;exitX=0.5;exitY=0;strokeWidth=3" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="535.8333333333333" y="401.52777777777754" as="sourcePoint" />
+            <mxPoint x="595.8333333333331" y="281.52777777777754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="208" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="485.8333333333332" y="191.52777777777752" as="sourcePoint" />
+            <mxPoint x="545.8333333333331" y="191.52777777777752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="209" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="505.8333333333331" y="227.52777777777752" as="sourcePoint" />
+            <mxPoint x="565.833333333333" y="227.52777777777752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="210" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="525.8333333333331" y="261.52777777777754" as="sourcePoint" />
+            <mxPoint x="585.8333333333333" y="261.52777777777754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="214" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="525.8333333333331" y="301.52777777777754" as="sourcePoint" />
+            <mxPoint x="585.8333333333333" y="301.52777777777754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="215" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="505.8333333333331" y="341.52777777777754" as="sourcePoint" />
+            <mxPoint x="565.833333333333" y="341.52777777777754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="216" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="485.8333333333332" y="381.52777777777754" as="sourcePoint" />
+            <mxPoint x="545.8333333333331" y="381.52777777777754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="237" value="Задержки API лаборатории" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="470.8333333333331" y="175.41777777777756" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="238" value="Нестабильность внешних сервисов" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="475.8333333333331" y="211.52777777777746" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="239" value="Отсутствие очередей сообщений" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="500.8333333333331" y="246.52777777777766" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="240" value="Неоптимизированные бизнес-процессы" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="490.0033333333331" y="301.9377777777778" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="241" value="Плохая документация" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="500.83333333333303" y="341.5277777777774" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="242" value="Отсутствие CI/CD" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle" parent="1" vertex="1">
+          <mxGeometry x="490.0033333333332" y="381.52777777777777" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
