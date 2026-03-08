@@ -1,0 +1,167 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="DnB41oCB6CMmwyyiUpMR">
+    <mxGraphModel dx="1360" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-10" target="dcbXa6z0f_MgffNWJkh5-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-56" value="Сообщает ФИО, &lt;br&gt;телефон, жалобы, &lt;br&gt;предоставляет &lt;br&gt;документы" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.0741" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-10" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="18" y="415" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-16" target="dcbXa6z0f_MgffNWJkh5-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="640" />
+              <mxPoint x="596" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-76" value="Занятое время" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.0247" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-16" value="Excel-файлы&lt;div&gt;(журналы специалистов)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="565" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-17" value="Файловое хранилище&lt;div&gt;(сканы док-ов)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+          <mxGeometry x="775" y="795" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-18" target="dcbXa6z0f_MgffNWJkh5-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="490" />
+              <mxPoint x="563" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-67" value="ID пациента (строка в Excel)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.0088" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-18" value="Excel-файл&lt;div&gt;(список пациентов)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-21" target="dcbXa6z0f_MgffNWJkh5-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-58" value="Вводит данные&amp;nbsp;&lt;div&gt;пациента&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-57" vertex="1" connectable="0">
+          <mxGeometry x="0.0277" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-21" target="dcbXa6z0f_MgffNWJkh5-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318" y="540" />
+              <mxPoint x="563" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-72" value="Запрос расписания" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-71" vertex="1" connectable="0">
+          <mxGeometry x="0.0794" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-21" target="dcbXa6z0f_MgffNWJkh5-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-80" value="Выбор времени" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-79" vertex="1" connectable="0">
+          <mxGeometry x="0.5212" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-21" target="dcbXa6z0f_MgffNWJkh5-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-85" value="Загрузка скана договора" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-83" vertex="1" connectable="0">
+          <mxGeometry x="0.6095" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-21" value="Сотрудник ресепшена" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="268" y="415" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-27" target="dcbXa6z0f_MgffNWJkh5-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="390" />
+              <mxPoint x="830" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-64" value="Проверка и запись нового пациента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-63" vertex="1" connectable="0">
+          <mxGeometry x="0.0201" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-27" target="dcbXa6z0f_MgffNWJkh5-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-70" value="Подтверждение регистрации" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-68" vertex="1" connectable="0">
+          <mxGeometry x="0.064" y="1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-27" value="1. Проверить/Зарегистрировать&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;пациента в БД&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="498" y="410" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-28" target="dcbXa6z0f_MgffNWJkh5-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-74" value="Чтение журналов специалистов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.0872" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-28" target="dcbXa6z0f_MgffNWJkh5-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-78" value="Список доступного времени" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-77" vertex="1" connectable="0">
+          <mxGeometry x="-0.4616" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-28" value="2. Выбрать свободное время и специалиста" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="498" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-29" target="dcbXa6z0f_MgffNWJkh5-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-82" value="Запись данных пациента в строку" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-81" vertex="1" connectable="0">
+          <mxGeometry x="-0.0355" y="2" relative="1" as="geometry">
+            <mxPoint x="-25" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-29" value="3. Зафиксировать запись в журнале специалиста" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="498" y="685" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dcbXa6z0f_MgffNWJkh5-54" target="dcbXa6z0f_MgffNWJkh5-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-87" value="Сохранение файла&lt;br&gt;(имя = ФИО+дата)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dcbXa6z0f_MgffNWJkh5-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.144" y="3" relative="1" as="geometry">
+            <mxPoint x="9" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcbXa6z0f_MgffNWJkh5-54" value="4.&amp;nbsp;Сохранить скан договора" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="498" y="790" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_WmDgO_Cx3LezwxADv2-1" value="Прямая PII (ФИО, телефон, email, адрес): Псевдонимизация (обезличивание с возможностью обратного преобразования для авторизованных сотрудников) в базах данных. Data Encryption at Rest and In Transit" style="text;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="900" y="390" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X_WmDgO_Cx3LezwxADv2-5" value="Сканы документов (паспорта, договоры): Хранить в зашифрованном виде с отдельными ключами доступа. Data Encryption at Rest and In Transit" style="text;whiteSpace=wrap;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="935" y="780" width="170" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
